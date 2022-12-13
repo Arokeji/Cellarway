@@ -1,0 +1,11 @@
+<form action="login.php" method="post" name="formulario">
+   <p style="margin-left: 20px; margin-top:20px;">Usuario <input name="txt_usuario" type="text" size="20" maxlength="40" /></p>
+   <p style="margin-bottom:20px;">Contraseña <input name="txt_password" type="password" size="20" maxlength="40" /></p>
+   <p align="center"><input type='submit' name='login' value='Acceder'></p>
+</form>
+
+
+
+document.writeln('<p><a href="#" onclick="insert_text('[plas]', true); return false;">
+<img src="http://www.thegifcollector.com.ar/images/Emoticons1405/TgC_emoticon111.gif" width="30" height="15" alt="[plas]" title="Aplausos" /></a></p>')
+

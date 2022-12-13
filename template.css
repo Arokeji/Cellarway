@@ -1,0 +1,148 @@
+html, body {
+background-image:url(images/back.jpg);
+background-repeat:repeat-x;
+background-color: #9fdf4c;
+text-align:center;
+margin: 0px;
+height: 100%;
+}
+
+a {
+font: 12px Arial, Helvetica, sans-serif;
+color: #009933;
+}
+
+h1 a{
+font:20px bold Arial, Helvetica, sans-serif;
+color: #1F3A21;
+text-align:left;
+text-decoration:none;
+}
+
+h1 a:hover{
+font:20px bold Arial, Helvetica, sans-serif;
+color:#009966;
+text-align:left;
+text-decoration:none;
+}
+
+#contenedor{
+background-color:#9fdf4c;
+background-image:url(images/cabecera.jpg);
+background-repeat:no-repeat;
+text-align:center;
+margin: 0px auto;
+padding-top: 140px;
+width: 700px;
+height: 100%;
+}
+
+#menu{
+position:relative;
+filter: alpha(opacity=90); 
+opacity: .9;
+}
+
+#menu ul{
+padding: 0px;
+margin: 0px;
+background-image: url("images/fondo_menu.jpg");
+list-style: none;
+font-size: 12px;
+font-weight: bold;
+width: 100%;
+height: 25px;
+}
+
+#menu li {
+display: inline;
+} 
+
+#menu li a:visited, #menu li a:link{
+color:#FFFFFF;
+background-image: url("images/fondo_menu.jpg");
+font: bold 14px Arial;
+padding: 4px 5px;
+text-decoration:none;
+float:left;
+}
+
+#menu li a:active, #menu li a:hover{
+color: #C60000;
+background-position: 0 -30px;
+height: 17px;
+filter: alpha(opacity=70); 
+opacity: .7;
+}
+
+.contenedorcontenido{
+width: 70%;
+float:left;
+}
+
+.contenido{
+font: 12px Arial, Helvetica, sans-serif;
+margin-top: 10px;
+padding: 1px 10px 5px 10px;
+color: #264A29;
+width: 100%;
+text-align:justify;
+background-color: #D7EFB6;
+/*filter: alpha(opacity=90); */
+opacity: .9;
+}
+
+.contenido h1{
+font:20px bold Arial, Helvetica, sans-serif;
+color: #1F3A21;
+text-align:left;
+}
+
+.contenido a{
+text-decoration:none;
+}
+
+.contenido a:hover{
+color:#00CC66;
+text-decoration:none;
+}
+
+.contenedordetalle{
+width: 20%;
+margin-right: 1.5%;
+float:right;
+}
+
+.detalle{
+font: 12px Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+padding: 4px;
+margin-top: 10px;
+width: 100%;
+text-align:justify;
+background-color:#5A7E0E;
+filter: alpha(opacity=70); 
+opacity: .7;
+}
+
+#contenedorcomentario{
+width: 71.5%;
+margin-right: 1.5%;
+clear:both;
+float:left;
+}
+
+.comentario{
+font: 12px Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+padding: 4px;
+margin-top: 10px;
+padding-bottom: 0px;
+width: 100%;
+text-align:justify;
+background-image:url(images/backcomentario.jpg);
+background-repeat:no-repeat;
+background-color:#006666;
+filter: alpha(opacity=90); 
+opacity: .9;
+}
